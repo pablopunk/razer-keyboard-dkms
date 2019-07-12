@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ is_linux ] && [ ! "$(whoami)" == "root" ]
+if [ ! "$(whoami)" == "root" ]
 then
   echo "Rerun as root"
   exit 1
